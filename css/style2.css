@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@font-face {
+    font-family: 'optimusprincepssemiboldRg';
+    src: url('fonts/optimusprincepssemibold_600-webfont.woff2') format('woff2'),
+        url('fonts/optimusprincepssemibold_600-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'optimusprincepsregular';
+    src: url('fonts/optimusprinceps_500-webfont.woff2') format('woff2'),
+        url('fonts/optimusprinceps_500-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+/*Navbar*/
+
+#navber {
+    background-color: black;
+}
+
+.brand {
+    color: #ff9800;
+    text-decoration: none;
+    font-family: 'optimusprincepsregular';
+    font-weight: 800;
+    letter-spacing: 4px;
+    font-size: 25px;
+}
+
+a.brand:hover {
+    color: white;
+    text-decoration: none;
+}
+
+nav span.navbar-toggle-icon {
+    color:white;
+}
+
+.fa-bars {
+    color: white;
+}
+a.nav-link {
+    font-family: 'sans-serif';
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+a.nav-link:hover {
+    color: #ff9800;
+}
+
+
+.navbar img {
+    max-width: 50px;
+    height:auto;
+    border-radius: 50%;
+}
+/*main-show*/
+
+.card-show {
+    background-color: black;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.card-show .card {
+    background: rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 3px 5px 0px #FFFFFF;
+    box-shadow: 0px 3px 5px 0px #FFFFFF;
+    padding: 16px;
+    margin: 5% auto;
+    height: auto;
+    border-radius: 15px;
+    align-content: center;
+    text-align: center;
+}
+
+.fa-user,
+.fa-shipping-fast,
+.fa-store {
+    font-size: 35px;
+    color: #ff9800;
+}
+
+.column {
+    float: left;
+    padding: 0 5px;
+    width: 33%;
+}
+
+.row-columns:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card-show h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.card-show span {
+    color: #ff9800;
+}
+
+
+/*main-show end*/
+
+/* Towns */
+
+.two-view h1 {
+    color: #ff9800;
+    font-family: 'optimusprincepsregular';
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+section.two-view {
+    padding: 30px;
+}
+
+
+.two-views .category {
+    margin: 10% auto;
+    height: auto;
+    border-radius: 15px;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.two-view img {
+    border-radius: 25%;
+    height: 300px;
+}
+
+.two-view h2 {
+    color: blueviolet;
+    font-family: 'optimusprincepsregular';
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+/* End Towns */
+
+/* Companies */
+
+
+section.cust {
+    background-color: rgba(66, 61, 61, 0.171);
+    justify-content: center;
+    width: auto;
+    height: auto;
+    border: none;
+    padding: 30px;
+}
+
+section.cust h2 {
+    color: black;
+    font-family: 'optimusprincepsregular';
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+.cust img {
+    width: auto;
+    height: 500px;
+}
+
+/* End Companies */
+
+/*trending */
+
+
+
+
+.trending h1 {
+    color: #ff9800;
+    font-family: 'optimusprincepsregular';
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+.trending h4 {
+    color: white;
+    font-family: 'optimusprincepsregular';
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.card.card-trending {
+
+    background-color: transparent;
+    max-width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card.card-trending img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #ff9800;
+}
+
+section.trending {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+        url("https://www.sabcnews.com/sabcnews/wp-content/uploads/2019/06/soweto.jpg");
+    background-repeat: no-repeat 50 50;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding: 30px;
+}
+
+@media (max-width: 768px) {
+    .cust img {
+        width: auto;
+        height: 500px;
+        padding: 20px;
+    }
+
+    section.trending {
+        background-attachment: fixed;
+        background-repeat: no-repeat 50 50;
+        background-position: center;
+        background-size: cover;
+        justify-content: center;
+        width: auto;
+        height: auto;
+    }
+    .section-padding{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    section.two-view {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+    .navbar img {
+        display: none;
+    }
+
+    .card-show{
+        padding: 20px;
+    }
+
+    .card-show .card {
+        padding: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: auto;
+        border-radius: 15px;
+        align-content: center;
+        text-align: center;
+    }
+
+
+    .two-view h1 {
+        font-size: 30px;
+    }
+
+    section.cust h2 {
+        font-size: 30px;
+    }
+
+    .trending h1 {
+        font-size: 30;
+
+    }
+
+
+    .card-show h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .section-padding{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    section.two-view {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .navbar img {
+        display: none;
+    }
+    .card-show{
+        padding: 20px;
+    }
+    .card-show h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .section-padding{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    section.two-view {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+@media (max-width: 354px) {
+    .brand {
+        font-size: 20px;
+    }
+    .card-show{
+        padding: 20px;
+    }
+
+    .card-show h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .section-padding{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    section.two-view {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

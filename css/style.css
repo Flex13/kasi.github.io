@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@font-face {
+    font-family: 'optimusprincepssemiboldRg';
+    src: url('fonts/optimusprincepssemibold_600-webfont.woff2') format('woff2'),
+        url('fonts/optimusprincepssemibold_600-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'optimusprincepsregular';
+    src: url('fonts/optimusprinceps_500-webfont.woff2') format('woff2'),
+        url('fonts/optimusprinceps_500-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    width: auto;
+    height: auto;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    vertical-align: baseline;
+    box-sizing: content-box;
+}
+
+.brand {
+    padding: 10px;
+}
+
+.brand a {
+    color: #FF862B;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: 'optimusprincepsregular';
+    font-weight: 800;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+
+.brand a:hover {
+    text-decoration: none;
+}
+
+/*Navbar*/
+.navbar {
+    background-color: transparent;
+}
+
+a.nav-link {
+    margin: 20px;
+    text-transform: uppercase;
+    color: darkgray;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+a:hover.nav-link {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.fa-bars {
+    color: whitesmoke;
+}
+
+/*Showcase*/
+main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("https://www.sabcnews.com/sabcnews/wp-content/uploads/2019/06/soweto.jpg");
+  background-repeat: no-repeat 50 50;
+  background-position: center;
+  background-size: 100%;
+}
+
+
+.showcase {
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 60px;
+}
+
+.card {
+    border: 0px solid rgba(0, 0, 0, .125);
+    padding: 10px;
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+
+.card-heading {
+    font-family: 'optimusprincepssemiboldRg';
+    color: whitesmoke;
+    font-size: large;
+}
+
+.showcase-img {
+    border-radius: 50%;
+    max-height: 300px;
+}
+
+.showcase-img:hover {
+    border-radius: 50%;
+    max-height: 300px;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.hvrbox,
+.hvrbox * {
+	box-sizing: border-box;
+}
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+    height: 300px;
+    border-radius: 25%;
+}
+.hvrbox img {
+    max-width: 100%;
+    
+}
+.hvrbox .hvrbox-layer_bottom {
+	display: block;
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox .hvrbox-layer_scale {
+	border-radius: 50%;
+	-moz-transform: scale(0);
+	-webkit-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+}
+.hvrbox:hover .hvrbox-layer_scale,
+.hvrbox.active .hvrbox-layer_scale {
+	border-radius: 0%;
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 1;
+}
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+	font-size: 15px;
+	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	margin-top: 5px;
+	padding-top: 2px;
+	display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
